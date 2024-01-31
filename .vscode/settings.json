@@ -1,0 +1,10 @@
+{
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "files.associations": {
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "utility": "cpp"
+    }
+}
