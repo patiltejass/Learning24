@@ -4,29 +4,34 @@
 #include <set>
 #include <map>
 #include <list>
+#include <utility>
 using namespace std;
 
+typedef int roll_no;
+typedef string Name;
+typedef string className;
+typedef string Addresstype;
 int main(){
     int n;
     cout << "Enter the number of students:" << endl;
     cin >> n;
-    map<int,pair<string,pair<string,pair<string,list<string>>>>> mp;
+    map<roll_no,pair<Name,pair<className,pair<Addresstype,list<string>>>>> mp;
     for (int i = 0; i < n; i++)
     {
-        int roll_no;
+        roll_no Roll_no;
+        Name Name;
+        className className;
+        Addresstype Addresstype;
         list<string> l;
-        string name, classs, Address;
         cout << "Enter the roll no:" << endl;
-        cin>>roll_no;
-        cout << "Enter the name:" << endl;
+        cin>>Roll_no;
+        cout << "Enter the Name:" << endl;
         cin.ignore();   
-        getline(cin, name);
+        getline(cin,Name);
         cout << "Enter the class:" << endl;
-        //cin.ignore();
-        getline(cin, classs);
-        cout << "Enter the Address:" << endl;
-        //cin.ignore();
-        getline(cin, Address);
+        getline(cin,className);
+        cout << "Enter the Addresstype:" << endl;
+        getline(cin,Addresstype);
         int no;
         cout << "Enter the no. of Numbers:" << endl;
         cin >> no;
@@ -37,18 +42,21 @@ int main(){
             cin >> numb;
             l.push_back(numb);
         }
-        mp[roll_no] = make_pair(name, make_pair(classs, make_pair(Address, l)));
+        mp[Roll_no] = make_pair(Name, make_pair(className, make_pair(Addresstype, l)));
     }
+    cout<<"Displaying the data:" << endl;
+    cout<<"_____________________________________________________________________________________________________________" << endl;
     for(auto i:mp){
-        cout << "Roll no: " << i.first << endl;
-        cout << "Name: " << i.second.first << endl;
-        cout << "Class: " << i.second.second.first << endl;
-        cout << "Address: " << i.second.second.second.first << endl;
-        cout << "Numbers: ";
+        cout << "Roll no: " << i.first << "----";
+        cout << "Name: " << i.second.first << "----";
+        cout << "Class: " << i.second.second.first << "----";
+        cout << "Addresstype: " << i.second.second.second.first << "----";
+        cout << "Numbers: ( ";
         for(auto j:i.second.second.second.second){
-            cout << j << " ";
+            cout << j << ", ";
         }
-        cout << endl;
+        cout <<" )"<<endl;
+        cout<<"__________________________________________________________________________________________________________" << endl;
     }
     return 0;
 }
