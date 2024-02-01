@@ -34,7 +34,6 @@ int main()
     sharedPtr1->printData();
     sharedPtr2->printData();
 
-
     weak_ptr<MyClass> weakPtr = sharedPtr1;
     if (auto lockedPtr = weakPtr.lock())
     {

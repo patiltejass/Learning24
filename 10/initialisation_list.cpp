@@ -5,18 +5,22 @@ class Name
     int x;
 
 public:
-    Name() { 
-        cout << "Tejas" << endl; 
+    Name()
+    {
+        cout << "Tejas" << endl;
     }
-    Name(int a) {
-        cout << "patil" << endl; 
+    Name(int a)
+    {
+        cout << "patil" << endl;
     }
-    Name(const Name &obj) { 
-        cout << "tejas patil" << endl; 
+    Name(const Name &obj)
+    {
+        cout << "tejas patil" << endl;
     }
-    Name &operator=(const Name &obj) { 
-        cout << "assginment" << endl; 
-        }
+    Name &operator=(const Name &obj)
+    {
+        cout << "assginment" << endl;
+    }
 };
 class named
 {

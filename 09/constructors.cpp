@@ -23,7 +23,7 @@ public:
         }
     }
 
-    Student& operator=(const Student &obj) : birthYear(obj.birthYear)
+    Student &operator=(const Student &obj) : birthYear(obj.birthYear)
     {
         if (this != &obj)
         {
