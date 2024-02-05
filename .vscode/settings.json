@@ -8,6 +8,7 @@
         "utility": "cpp",
         "xstring": "cpp",
         "vector": "cpp",
-        "list": "cpp"
+        "list": "cpp",
+        "xmemory": "cpp"
     }
 }

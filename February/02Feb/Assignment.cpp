@@ -26,45 +26,45 @@ int main()
     vecpointer.push_back(s5pointer);
 
     cout << "_________________________________________________________________________________" << endl;
-    for (int i = 0; i < vecpointer.size(); i++)
+    for (auto i:vecpointer)
     {
-        string classss = GetClass1(1, vecpointer[i]);
+        string classss = GetClass1(1, i);
         cout << classss ;
     }
     cout<<endl;
     cout << "_________________________________________________________________________________" << endl;
-    for (int i = 0; i < vecpointer.size(); i++)
+    for (auto i : vecpointer)
     {
-        list<string> cont = GetContacts(1, vecpointer[i]);
+        list<string> cont = GetContacts(1, i);
         if (!cont.empty())
             print_list(cont);
     }
     cout << "_________________________________________________________________________________" << endl;
-    for (int i = 0; i < vecpointer.size(); i++)
+    for (auto i:vecpointer)
     {
-        list<string> subs = GetSubjects(1, vecpointer[i]);
+        list<string> subs = GetSubjects(1, i);
         if (!subs.empty())
             print_list(subs);
     }
     cout << "_________________________________________________________________________________" << endl;
-    for (int i = 0; i < vecpointer.size(); i++)
+    for (auto i:vecpointer)
     {
-        list<string> stusubs = GetSubjectsWiseStudentNames("Maths", vecpointer[i]);
+        list<string> stusubs = GetSubjectsWiseStudentNames("Maths", i);
         if (!stusubs.empty())
             print_list(stusubs);
     }
     cout<<"_________________________________________________________________________________"<<endl;
-    for (int i = 0; i < vecpointer.size(); i++)
+    for (auto i:vecpointer)
     {
-        list<string> grdsubs = GetGradeWiseStudentNames("A+", vecpointer[i]);
+        list<string> grdsubs = GetGradeWiseStudentNames("A+", i);
         if (!grdsubs.empty())
             print_list(grdsubs);
     }
     cout << "_________________________________________________________________________________" << endl;
 
-    for (int i = 0; i < vecpointer.size(); i++)
+    for (auto i:vecpointer)
     {
-        list<string> sprts = GetSportName("Manoj", vecpointer[i]);
+        list<string> sprts = GetSportName("Manoj", i);
         if (!sprts.empty())
             print_list(sprts);
     }
