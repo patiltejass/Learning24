@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/rec">
+        <file>Euro.png</file>
+        <file>INR.png</file>
+        <file>JPY.png</file>
+        <file>Pound.png</file>
+        <file>USD.png</file>
+    </qresource>
+</RCC>
