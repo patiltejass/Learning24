@@ -35,7 +35,7 @@ void MainWindow::on_pushButton_2_clicked()
 
 void MainWindow::handleSignupInfo(const QString &email, const QString &password, const QString &confPassword)
 {
-    qDebug() << "Signup info received: " << email << " " << password << " " << confPassword;
+    //qDebug() << "Signup info received: " << email << " " << password << " " << confPassword;
     // Perform further processing with signup info
     mp = new std::map<std::string,std::string>;
 

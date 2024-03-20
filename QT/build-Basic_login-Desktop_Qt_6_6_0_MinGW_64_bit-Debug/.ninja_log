@@ -1,0 +1,11 @@
+# ninja log v5
+6	174	7308073133195777	Basic_login_autogen/timestamp	b4f8f4024bda8bfa
+6	174	7308073133195777	Basic_login_autogen/mocs_compilation.cpp	b4f8f4024bda8bfa
+6	174	7308073133195777	D:/DELTA/GIthub/Learning24/QT/build-Basic_login-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/Basic_login_autogen/mocs_compilation.cpp	b4f8f4024bda8bfa
+6	174	7308073133195777	D:/DELTA/GIthub/Learning24/QT/build-Basic_login-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/Basic_login_autogen/timestamp	b4f8f4024bda8bfa
+941	4306	7308057867146785	CMakeFiles/Basic_login.dir/Basic_login_autogen/mocs_compilation.cpp.obj	d944a4a0179f7dce
+936	4179	7308057865707904	CMakeFiles/Basic_login.dir/main.cpp.obj	45f7bd6f8327ba0f
+188	3159	7308073162980353	CMakeFiles/Basic_login.dir/login.cpp.obj	6a6dcfe5daf50315
+224	3327	7308073164721334	CMakeFiles/Basic_login.dir/mainwindow.cpp.obj	5e82aebeb76ae2c9
+220	3177	7308073163218222	CMakeFiles/Basic_login.dir/signup.cpp.obj	c4fcca22c46142bf
+3327	3889	7308073170297215	Basic_login.exe	13773372deea20b

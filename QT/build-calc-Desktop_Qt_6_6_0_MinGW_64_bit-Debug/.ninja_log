@@ -1,0 +1,9 @@
+# ninja log v5
+1	778	7308080957641355	calc_autogen/timestamp	8e090050345177a1
+1	778	7308080957641355	calc_autogen/mocs_compilation.cpp	8e090050345177a1
+1	778	7308080957641355	D:/DELTA/GIthub/Learning24/QT/build-calc-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/calc_autogen/timestamp	8e090050345177a1
+1	778	7308080957641355	D:/DELTA/GIthub/Learning24/QT/build-calc-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/calc_autogen/mocs_compilation.cpp	8e090050345177a1
+783	3874	7308080989360603	CMakeFiles/calc.dir/calc_autogen/mocs_compilation.cpp.obj	ba2223a9eb8df2f5
+779	3991	7308080990525832	CMakeFiles/calc.dir/main.cpp.obj	6c2c8b46e68d10c7
+787	4469	7308080995308389	CMakeFiles/calc.dir/mainwindow.cpp.obj	b7ee87deb9b8ad58
+4469	4743	7308080997998742	calc.exe	ec05a65f5002c397

@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-1c1d8636953b1584eb23.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Basic_login",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Basic_login::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Basic_login-Debug-2cca772db584a2bda26f.json",
+					"name" : "Basic_login",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Basic_login_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Basic_login_autogen-Debug-c6173f248fa932f51774.json",
+					"name" : "Basic_login_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Basic_login_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Basic_login_autogen_timestamp_deps-Debug-62044d8c5edd693ec632.json",
+					"name" : "Basic_login_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/DELTA/GIthub/Learning24/QT/build-Basic_login-Desktop_Qt_6_6_0_MinGW_64_bit-Debug",
+		"source" : "D:/DELTA/GIthub/Learning24/QT/Basic_login"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

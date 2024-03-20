@@ -14,7 +14,7 @@ private:
     string classs;
     string address;
     list<string> numbers;
-    list<string> subjects;
+    list<string> subjects;  
     string grade;
     list<string> sports;
 
