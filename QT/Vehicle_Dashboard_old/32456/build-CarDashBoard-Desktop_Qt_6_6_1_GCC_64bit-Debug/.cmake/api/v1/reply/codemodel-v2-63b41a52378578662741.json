@@ -1,0 +1,193 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-3d0d2edce4b97db4412a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"build" : "DataBase",
+					"jsonFile" : "directory-DataBase-Debug-4b10344b3952984d1028.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "DataBase",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"build" : "Service",
+					"jsonFile" : "directory-Service-Debug-2617e9cd639189d9a31f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "Service",
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CarDashBoard",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "DataBase",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "database",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CarDashBoard::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CarDashBoard-Debug-a3665a945f286f553691.json",
+					"name" : "CarDashBoard",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CarDashBoard_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CarDashBoard_autogen-Debug-ed1de832f9f749a3c2fb.json",
+					"name" : "CarDashBoard_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CarDashBoard_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CarDashBoard_autogen_timestamp_deps-Debug-390329859a1f4ff0fd17.json",
+					"name" : "CarDashBoard_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "SeriviceLibrary::@91bc7765fde5a1b73d63",
+					"jsonFile" : "target-SeriviceLibrary-Debug-cd0677bac2aae5cab736.json",
+					"name" : "SeriviceLibrary",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "SeriviceLibrary_autogen::@91bc7765fde5a1b73d63",
+					"jsonFile" : "target-SeriviceLibrary_autogen-Debug-58c8934d8e98185508f9.json",
+					"name" : "SeriviceLibrary_autogen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "SeriviceLibrary_autogen_timestamp_deps::@91bc7765fde5a1b73d63",
+					"jsonFile" : "target-SeriviceLibrary_autogen_timestamp_deps-Debug-2b626c6e9e35b741bf1d.json",
+					"name" : "SeriviceLibrary_autogen_timestamp_deps",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "databaseLibrary::@a476e4c40090e0fb63c3",
+					"jsonFile" : "target-databaseLibrary-Debug-76eaff1bc0e4b43081c4.json",
+					"name" : "databaseLibrary",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "databaseLibrary_autogen::@a476e4c40090e0fb63c3",
+					"jsonFile" : "target-databaseLibrary_autogen-Debug-8c136e42cbd805d1b705.json",
+					"name" : "databaseLibrary_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "databaseLibrary_autogen_timestamp_deps::@a476e4c40090e0fb63c3",
+					"jsonFile" : "target-databaseLibrary_autogen_timestamp_deps-Debug-f3b00ad06bdded4f9eb6.json",
+					"name" : "databaseLibrary_autogen_timestamp_deps",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/amar/QT/build-CarDashBoard-Desktop_Qt_6_6_1_GCC_64bit-Debug",
+		"source" : "/home/amar/QT/CarDashBoard"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

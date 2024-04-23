@@ -55,3 +55,9 @@ void Updatedetails::on_pushButton_clicked()
     QMessageBox::information(nullptr,"Success","Device Added Successfully");
 }
 
+
+void Updatedetails::on_radioButton_clicked()
+{
+
+}
+

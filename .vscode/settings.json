@@ -9,6 +9,23 @@
         "xstring": "cpp",
         "vector": "cpp",
         "list": "cpp",
-        "xmemory": "cpp"
+        "xmemory": "cpp",
+        "exception": "cpp",
+        "memory": "cpp",
+        "tuple": "cpp",
+        "algorithm": "cpp",
+        "concepts": "cpp",
+        "deque": "cpp",
+        "ios": "cpp",
+        "istream": "cpp",
+        "iterator": "cpp",
+        "map": "cpp",
+        "set": "cpp",
+        "stack": "cpp",
+        "streambuf": "cpp",
+        "type_traits": "cpp",
+        "xiosbase": "cpp",
+        "xtree": "cpp",
+        "xutility": "cpp"
     }
 }

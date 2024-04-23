@@ -27,6 +27,8 @@ private slots:
     void on_update_user_button_clicked();
 
     void on_pushButton_clicked();
+    void on_radioButton_clicked();
+
 public slots:
     void accessDB(Database &dbconnection);
 

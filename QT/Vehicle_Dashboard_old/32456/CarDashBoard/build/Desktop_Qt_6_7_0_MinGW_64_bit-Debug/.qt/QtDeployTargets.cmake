@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_CarDashBoard_FILE D:/DELTA/GIthub/Learning24/QT/Vehicle_Dashboard_old/32456/CarDashBoard/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CarDashBoard.exe)
+set(__QT_DEPLOY_TARGET_CarDashBoard_RUNTIME_DLLS C:/Qt/6.7.0/mingw_64/bin/Qt6Sql.dll;C:/Qt/6.7.0/mingw_64/bin/Qt6Widgets.dll;C:/Qt/6.7.0/mingw_64/bin/Qt6Gui.dll;C:/Qt/6.7.0/mingw_64/bin/Qt6Sql.dll;C:/Qt/6.7.0/mingw_64/bin/Qt6Core.dll)

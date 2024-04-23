@@ -23,6 +23,10 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(Vehicle_Dashboard
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
+		selectuser.h selectuser.cpp selectuser.ui
+		add_edituser.h add_edituser.cpp add_edituser.ui
+		dashboard.h dashboard.cpp dashboard.ui
+
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET Vehicle_Dashboard APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
@@ -43,6 +47,28 @@ else()
 endif()
 
 target_link_libraries(Vehicle_Dashboard PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
+
+add_subdirectory(Database)
+add_subdirectory(Service)
+
+target_include_directories(Vehicle_Dashboard
+  PRIVATE
+    ${CMAKE_CURRENT_SOURCE_DIR}/Database
+	${CMAKE_CURRENT_SOURCE_DIR}/Service
+	${QT_VERSION_MAJOR}::Widgets
+)
+
+target_link_libraries(Vehicle_Dashboard PRIVATE
+  Database
+  Service
+  Qt${QT_VERSION_MAJOR}::Widgets)
+
+find_package(QT NAMES Qt6 Qt5 COMPONENTS Core Gui Widgets Sql REQUIRED)
+find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Core Gui Widgets Sql REQUIRED)
+
+target_link_libraries(Vehicle_Dashboard PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
+target_link_libraries(Vehicle_Dashboard PRIVATE Qt${QT_VERSION_MAJOR}::Sql)
+
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
 # If you are developing for iOS or macOS you should consider setting an

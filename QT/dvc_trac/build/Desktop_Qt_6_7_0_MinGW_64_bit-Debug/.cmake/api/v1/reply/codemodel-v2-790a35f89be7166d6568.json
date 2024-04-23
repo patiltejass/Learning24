@@ -1,0 +1,193 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-bd502b9210ba4f9e4ee5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "Service",
+					"jsonFile" : "directory-Service-Debug-152f5dcaa3c85dc53e90.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Service",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"build" : "Database",
+					"jsonFile" : "directory-Database-Debug-3b7ca4349ccd924e5f58.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "Database",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "dvc_trac",
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "Service",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "Service",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "Database::@c2e70d84feb6e889f948",
+					"jsonFile" : "target-Database-Debug-3db1a0c3e3fc1550c592.json",
+					"name" : "Database",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Database_autogen::@c2e70d84feb6e889f948",
+					"jsonFile" : "target-Database_autogen-Debug-9486862b4d93ad18b72f.json",
+					"name" : "Database_autogen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Database_autogen_timestamp_deps::@c2e70d84feb6e889f948",
+					"jsonFile" : "target-Database_autogen_timestamp_deps-Debug-6bf31c584ef203108138.json",
+					"name" : "Database_autogen_timestamp_deps",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dvc_trac::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dvc_trac-Debug-c676e322557a041140f4.json",
+					"name" : "dvc_trac",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dvc_trac_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dvc_trac_autogen-Debug-dc718639feb0156512b6.json",
+					"name" : "dvc_trac_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dvc_trac_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dvc_trac_autogen_timestamp_deps-Debug-6f904843de28d3200abd.json",
+					"name" : "dvc_trac_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "service::@91bc7765fde5a1b73d63",
+					"jsonFile" : "target-service-Debug-debfcc407cefaf207bf1.json",
+					"name" : "service",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "service_autogen::@91bc7765fde5a1b73d63",
+					"jsonFile" : "target-service_autogen-Debug-e529db9fb42d5443d0f6.json",
+					"name" : "service_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "service_autogen_timestamp_deps::@91bc7765fde5a1b73d63",
+					"jsonFile" : "target-service_autogen_timestamp_deps-Debug-573c5344614e9d3cf929.json",
+					"name" : "service_autogen_timestamp_deps",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/DELTA/GIthub/Learning24/QT/dvc_trac/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug",
+		"source" : "D:/DELTA/GIthub/Learning24/QT/dvc_trac"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

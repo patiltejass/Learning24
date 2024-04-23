@@ -1,0 +1,6 @@
+set(__QT_DEPLOY_TARGET_service_FILE D:/DELTA/GIthub/Learning24/QT/dvc_trac/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Service/libservice.dll)
+set(__QT_DEPLOY_TARGET_service_RUNTIME_DLLS C:/Qt/6.7.0/mingw_64/bin/Qt6Widgets.dll;D:/DELTA/GIthub/Learning24/QT/dvc_trac/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Database/libDatabase.dll;C:/Qt/6.7.0/mingw_64/bin/Qt6Gui.dll;C:/Qt/6.7.0/mingw_64/bin/Qt6Sql.dll;C:/Qt/6.7.0/mingw_64/bin/Qt6Core.dll)
+set(__QT_DEPLOY_TARGET_Database_FILE D:/DELTA/GIthub/Learning24/QT/dvc_trac/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Database/libDatabase.dll)
+set(__QT_DEPLOY_TARGET_Database_RUNTIME_DLLS C:/Qt/6.7.0/mingw_64/bin/Qt6Sql.dll;C:/Qt/6.7.0/mingw_64/bin/Qt6Core.dll)
+set(__QT_DEPLOY_TARGET_dvc_trac_FILE D:/DELTA/GIthub/Learning24/QT/dvc_trac/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/dvc_trac.exe)
+set(__QT_DEPLOY_TARGET_dvc_trac_RUNTIME_DLLS D:/DELTA/GIthub/Learning24/QT/dvc_trac/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Service/libservice.dll;D:/DELTA/GIthub/Learning24/QT/dvc_trac/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Database/libDatabase.dll;C:/Qt/6.7.0/mingw_64/bin/Qt6Sql.dll;C:/Qt/6.7.0/mingw_64/bin/Qt6PrintSupport.dll;C:/Qt/6.7.0/mingw_64/bin/Qt6Widgets.dll;C:/Qt/6.7.0/mingw_64/bin/Qt6Gui.dll;C:/Qt/6.7.0/mingw_64/bin/Qt6Core.dll)

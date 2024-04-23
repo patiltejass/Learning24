@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/new/speedometer">
+        <file>Speedometer.png</file>
+    </qresource>
+</RCC>

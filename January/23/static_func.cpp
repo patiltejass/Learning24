@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void func()
+static void func()
 {
     int a = 1;
     a++;
